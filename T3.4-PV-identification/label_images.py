@@ -144,8 +144,6 @@ def create_csv_with_labels(folder: Path, label_file: Path):
 
 
 def shift_numpy_files_into_empty_and_solar_folders(data_folder: Path):
-    """ if test = True than the files will be saved in different "test" folders which are not used for training but only for valudation
-    """
     # numpy files are saved in image folder parent and are shifted in the correct folders here:
 
     empty_train_folder = data_folder / "empty/org"  
